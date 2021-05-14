@@ -1,0 +1,17 @@
+{
+  "name": "kyd-website",
+  "version": "1.0.0",
+  "description": "Code for the Know Your Data website, which is hosted as a github page.",
+  "main": "",
+  "scripts": {
+    "start": "./local.sh",
+    "deploy": "./deploy.sh"
+  },
+  "author": "People + AI Research",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@11ty/eleventy": "~0.12.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
+    "markdown-it": "^11.0.0"
+  }
+}

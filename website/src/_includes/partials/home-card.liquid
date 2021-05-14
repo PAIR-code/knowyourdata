@@ -1,0 +1,14 @@
+
+
+<div class="home-card mdl-grid {% if reverse %}layout-flex-reverse{% endif %}">
+  <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone layout-flex-col-center">
+    <h3 class="home-card-title">{{ title }}</h3>
+    <p class="home-card-desc">{{ description }}</p>
+    <div class="home-card-cta-button"><a href="{{ link }}" {% if external %}target="_blank"{% endif %} >{{ cta-text }}</a>{% if external %}<img class="external-arrow" src="{% root %}/assets/images/arrow-link-out.svg"/>{% else %}<img class="external-arrow" src="{% root %}/assets/images/arrow-right.svg"/>{% endif %}</div>
+  </div>
+  <div class="mdl-cell mdl-cell--7-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+    <video class="home-card-video" loop autoplay muted>
+      <source src="{% root %}{{ video }}" type="video/mp4" />
+    </video>
+  </div>
+</div>
