@@ -1,0 +1,6 @@
+website/www/**
+**/build/**
+**/node_modules/**
+**/__pycache__/**
+**/*.pyc
+**/_site/**
