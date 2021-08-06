@@ -11,7 +11,7 @@ layout: layouts/main.liquid
 
 {% include partials/spacer height:60 %}
 
-{% include partials/home-card title:"Explore 70+ ML datasets" description:"Interactively explore image datasets from the TensorFlow Datasets catalog" link:"https://knowyourdata-tfds.withgoogle.com" cta-text:"Try it on TensorFlow Datasets" video:"/assets/videos/explore-70-datasets.mp4" %}
+{% include partials/home-card title:"Explore 70+ ML datasets" description:"Interactively explore image datasets supported by the TensorFlow Datasets API" link:"https://knowyourdata-tfds.withgoogle.com" cta-text:"Try it" video:"/assets/videos/explore-70-datasets.mp4" %}
 
 {% include partials/home-card title:"Filter & group in real-time" description:"Facet by source labels, Cloud Vision annotations, sharpness & more" link:"https://knowyourdata-tfds.withgoogle.com/#tab=STATS&dataset=imagenet2012" cta-text:"Try it on the ImageNet dataset" video:"/assets/videos/filter-beaver.mp4" reverse:true %}
 
@@ -21,7 +21,7 @@ layout: layouts/main.liquid
 
 ### Stay updated
 
-Know Your Data is **under active development** as we continue to expand our offerings. Our **beta version** visualizes image datasets from the TensorFlow catalog. Sign up to stay in the loop.
+Know Your Data is **under active development** as we continue to expand our offerings. Our **beta version** visualizes image datasets supported by the TensorFlow Datasets API. Sign up to stay in the loop.
 
 <div class="main-page-mailing-list">
 {% include partials/home-cta-button text:"Join the mailing list" link:"https://groups.google.com/g/knowyourdata-announce" %}
