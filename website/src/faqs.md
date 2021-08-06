@@ -23,7 +23,7 @@ KYD allows users to explore the dataset by information that wasn’t originally 
 f-title: "Can I run Know Your Data on my own data?",
 f-copy: "
 
-Not yet. For now, we’re only serving Know Your Data for image-based TensorFlow datasets.
+Not yet. For now, we’re only serving Know Your Data for image-based datasets supported by the TensorFlow Datasets API.
 " %}
 
 {% include partials/faq-element
@@ -62,10 +62,10 @@ Although we are aware that signals on protected attributes can help tackle fairn
 " %}
 
 {% include partials/faq-element
-f-title: "Why are not all of the TFDS datasets enabled in KYD?",
+f-title: "Why are not all of the datasets supported by the TFDS API enabled in KYD?",
 f-copy: "
 
-KYD features datasets with the appropriate licenses for us to serve them. We accept [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0), [MIT](https://en.wikipedia.org/wiki/MIT_License) and [Creative Commons](https://creativecommons.org/). If you don’t see a TFDS dataset enabled in KYD, it’s likely that it may not have one of these licenses. If you are a dataset author interested in visualizing your dataset in KYD, please [let us know](mailto:knowyourdata-feedback@google.com).
+KYD features datasets with the appropriate licenses for us to serve them. We accept [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0), [MIT](https://en.wikipedia.org/wiki/MIT_License) and [Creative Commons](https://creativecommons.org/). If you don’t see a TFDS supported dataset enabled in KYD, it’s likely that it may not have one of these licenses. If you are a dataset author interested in visualizing your dataset in KYD, please [let us know](mailto:knowyourdata-feedback@google.com).
 " %}
 
 {% include partials/faq-element

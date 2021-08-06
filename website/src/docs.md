@@ -26,7 +26,7 @@ KYD aims to answer the following questions:
 - Is my dataset balanced across various attributes?
 
 {% include partials/info-box title: 'NOTE', text: "The initial external release of Know Your Data supports image datasets
-from the TensorFlow datasets catalog. We plan to support text and tabular
+supported by the TensorFlow Datasets API. We plan to support text and tabular
 datasets soon."S %}
 
 <a name="ui-overview"></a>

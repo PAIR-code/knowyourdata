@@ -2,7 +2,7 @@
 
 Know Your Data is a tool to help researchers, engineers, product teams and decision makers understand datasets with the goal of improving data quality, as well as helping mitigate fairness and bias issues.
 
-[Explore Know Your Data for TensorFlow Datasets now!](https://knowyourdata-tfds.withgoogle.com/)
+[Explore Know Your Data for datasets supported by the TensorFlow Datasets API!](https://knowyourdata-tfds.withgoogle.com/)
 
 You can find documentation for the tool [here](https://knowyourdata.withgoogle.com/).
 
