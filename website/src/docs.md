@@ -148,7 +148,8 @@ There are two ways to open to the Relations table:
 
 Each cell indicates either a positive (blue color) or negative (orange color)
 correlation between two specific signal values along with the _strength_ of that
-correlation. The metric we use is closely related to the
+correlation. The metric we use is inspired by the research of
+[Aka et al., AIES '21](https://dl.acm.org/doi/pdf/10.1145/3461702.3462557) and is closely related to the
 [PMI](https://en.wikipedia.org/wiki/Pointwise_mutual_information) metric that
 tells us if two different feature values co-occur less or more than chance.
 
